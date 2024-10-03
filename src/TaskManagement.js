@@ -52,11 +52,13 @@ const TaskManagement = ({ handleLogout }) => {
   };
 
   const handleSaveEdit = (id) => {
+    const task = tasks.find((task) => task.id === id);
     if (!editTitle) {
       alert("task name should not be empty");
       return;
     }
-    if (checkAlreadyExists(tasks, editTitle)) {
+    console.log('sss', editTitle, task.title)
+    if (checkAlreadyExists(tasks, editTitle) && editTitle !== task.title) {
       alert("task already exists");
       return;
     }
