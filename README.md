@@ -2,10 +2,10 @@
 Created with CodeSandbox
 
 clone the repo 
-git clone https://github.com/KapilYaswanth/taskmanager.git
+ - git clone https://github.com/KapilYaswanth/taskmanager.git
 
 install the dependencies
-npm install
+ - npm install
 
 start the server
-npm start
+ - npm start
