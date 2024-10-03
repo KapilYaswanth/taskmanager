@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.e4b4146c.css","mappings":"AAAA,KACE,sBAAuB,CACvB,iBACF,CAEA,YACE,WACF","sources":["styles.css"],"sourcesContent":[".App {\r\n  font-family: sans-serif;\r\n  text-align: center;\r\n}\r\n\r\n.loginField {\r\n  margin: 10px;\r\n}\r\n"],"names":[],"sourceRoot":""}
